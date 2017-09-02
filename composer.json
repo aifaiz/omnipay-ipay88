@@ -1,0 +1,35 @@
+{
+    "name": "omnipay/ipay88",
+    "type": "library",
+    "description": "ipay88 driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "manual",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/aifaiz/omnipay-ipay88",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamizulfaiz",
+            "email": "faiz@aics.my"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\ipay88\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
